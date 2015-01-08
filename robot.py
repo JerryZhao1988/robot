@@ -139,7 +139,7 @@ def main():
 	test = a_star(sys.argv[1])
 	if len(sys.argv) > 2:
 		startpoint = (int(sys.argv[2]),int(sys.argv[3]))
-		endpoint =	(int(sys.argv[4]),int(sys.argv[5]))
+		endpoint = (int(sys.argv[4]),int(sys.argv[5]))
 	else:
 		startpoint = (0,0)
 		endpoint = (5,5) 
